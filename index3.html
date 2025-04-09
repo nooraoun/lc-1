@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+  <title>Student Registration Form</title>
+  <style>
+    body {
+      font-family: Arial;
+      background-color: #ddd;
+    }
+    .container {
+      width: 600px;
+      margin: auto;
+      background-color:rgb(90, 205, 178);
+      color: white;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    h2 {
+      text-align: center;
+      text-decoration: underline;
+    }
+    input[type=text], input[type=email], input[type=number], select, textarea {
+      width: 100%;
+      padding: 5px;
+      margin: 5px 0 15px 0;
+      border: none;
+      border-radius: 4px;
+    }
+    table {
+      width: 100%;
+      margin-top: 10px;
+      background-color: white;
+      color: black;
+    }
+    td, th {
+      padding: 8px;
+      text-align: center;
+    }
+    .buttons {
+      text-align: center;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h2>STUDENT REGISTRATION FORM</h2>
+  <form>
+    <label>FIRST NAME</label>
+    <input type="text" maxlength="30" placeholder="Max 30 characters a-z and A-Z">
+
+    <label>LAST NAME</label>
+    <input type="text" maxlength="30" placeholder="Max 30 characters a-z and A-Z">
+
+    <label>DATE OF BIRTH</label><br>
+    <select><option>Day</option></select>
+    <select><option>Month</option></select>
+    <select><option>Year</option></select><br><br>
+
+    <label>EMAIL ID</label>
+    <input type="email">
+
+    <label>MOBILE NUMBER</label>
+    <input type="text" maxlength="10" placeholder="10 digit number">
+
+    <label>GENDER</label><br>
+    <input type="radio" name="gender"> Male
+    <input type="radio" name="gender"> Female<br><br>
+
+    <label>ADDRESS</label>
+    <textarea rows="3"></textarea>
+
+    <label>CITY</label>
+    <input type="text" maxlength="30">
+
+    <label>PIN CODE</label>
+    <input type="text" maxlength="6" placeholder="6 digit number">
+
+    <label>STATE</label>
+    <input type="text" maxlength="30">
+
+    <label>COUNTRY</label>
+    <input type="text">
+
+    <label>HOBBIES</label><br>
+    <input type="checkbox"> Drawing
+    <input type="checkbox"> Singing
+    <input type="checkbox"> Dancing
+    <input type="checkbox"> Sketching
+    <input type="checkbox"> Others 
+    <input type="text"><br><br>
+
+    <label>QUALIFICATION</label>
+    <table border="1">
+      <tr>
+        <th>Sl.No.</th>
+        <th>Examination</th>
+        <th>Board</th>
+        <th>Percentage</th>
+        <th>Year of Passing</th>
+      </tr>
+      <tr>
+        <td>1</td><td>Class X</td>
+        <td><input type="text" maxlength="10"></td>
+        <td><input type="text" maxlength="5"></td>
+        <td><input type="text" maxlength="4"></td>
+      </tr>
+      <tr>
+        <td>2</td><td>Class XII</td>
+        <td><input type="text" maxlength="10"></td>
+        <td><input type="text" maxlength="5"></td>
+        <td><input type="text" maxlength="4"></td>
+      </tr>
+      <tr>
+        <td>3</td><td>Graduation</td>
+        <td><input type="text" maxlength="10"></td>
+        <td><input type="text" maxlength="5"></td>
+        <td><input type="text" maxlength="4"></td>
+      </tr>
+      <tr>
+        <td>4</td><td>Masters</td>
+        <td><input type="text" maxlength="10"></td>
+        <td><input type="text" maxlength="5"></td>
+        <td><input type="text" maxlength="4"></td>
+      </tr>
+    </table>
+
+    <label>COURSES APPLIED FOR</label><br>
+    <input type="checkbox"> BCA
+    <input type="checkbox"> B.Com
+    <input type="checkbox"> B.Sc
+    <input type="checkbox"> B.A<br><br>
+
+    <div class="buttons">
+      <input type="submit" value="Submit">
+      <input type="reset" value="Reset">
+    </div>
+  </form>
+</div>
+<h1>this is a github </h1>
+</body>
+</html>
